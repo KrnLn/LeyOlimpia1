@@ -1,377 +1,177 @@
-  body{margin:0;
-        font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+body{ background-color: #FFCCED;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+
+
+
 }
-        nav{
-            background-color: #3F3FBC;
-            color: white;
-            margin: inherit;
-            display: inline-block;
-            margin: 10px;
-            font-size:20px;
-            
-            text-align: center;
-            
-        } 
-        
-        nav a{color:white;
-            display: inline-block;
-            padding: 30px;
-            padding-bottom: 20px;
-            padding-top: 10px;
-            color: #fff;
-            text-decoration: none;
-            text-align: left;
-            margin-left:50px;
-           
-            }
-
-nav a:hover {
-    background-color: rgba(0, 0, 0, .2);
+.introducciontexto{
+    padding-left: 100px;
+    padding-right: 100px;
 }
-        
-        header{
-            position: sticky;
-            top: 0;
-            margin: 0;
-            padding: 10px;
-            background-color: #3F3FBC;
-            text-align: left;
-            
-             text-align: center;
-            
-        }
 
- .menu{
-            color:white;
-        }
-
-#LeyOlimpia{
+h5{ padding-left: 100px;
+    padding-right: 100px;
     
-    display: inline-block;
 }
-        
-      .introduccion{ display: inline-flex;
-          
-         } /*  border: 3px solid blue*/
-
-
-
-.IntroduccionTitulo{
+.ContenedorGral{
     
-    display: inline-block;
-    padding-left: 110px; 
-    padding-bottom: 0;
-    padding-top: 150px;
-    padding-bottom: 0px;
-    width: 50%;
+    background-color: #DD94FE;
+    text-align: center;
+    width: 60%;
    
-} /*border: 3px solid black;*/
+     border-color: red;
+    border: solid;
+    text-align: center;
+   
+    box-shadow: 10px 5px 5px #FF6DCD;
+    padding: 0px;
+    
 
-.IniciativaImpulsada{
-    font-size: 25px;
+
 }
 
-.ImgIntroduccion img{ max-width:80%;
-    min-width: 50px;
-    border-radius: 50%;
-    margin-top: 150px;
 
 
-
- }
-
-
-
-.ImgIntroduccion{
+.contenedorPintoras{width: 80%;
+     
+     text-align: center;
+    width: 100%;
+    color: red;
+    display: flex;
     
 }
-        .introVigor{
-            text-align: center;
-            color: #0B0B70;
-            font-size: 20px;
-            padding: 20px;
-            
-        }
 
-.introVigor{ 
-    padding-left: 150px;
-     padding-right: 150px;
-    padding-bottom: 200px;
-    padding-top: 80px;
-    font-size: 25px;
-} /* border: 3px solid red;*/
- 
+.contenedorPintoras img{
+    width: 200px;
+    height: 200px;
+      
 
-#Queesviolencia{
+}
+
+.textolilia{
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: justify;
+    color:#5F046C;
+}
+
+.textolola{ padding-right: 10px;
+    padding-left: 10px;
+     text-align: justify;
+     color:#5F046C;
     
-}/*  border: 5px solid red;*/
-
-
-.contenedorviolenciadigital{
-            background-color: #3F3FBC;
-            color: white;
-            width: 100%;
-    display: inline-flex;
     
-            
-        }
+}
 
-hr{
-    overflow: hidden;
-  position: relative;
-   position: hidden;
+.textocelia{padding-right: 10px;
+    padding-left: 10px;
+     text-align: justify;
+     color:#5F046C;
+    
+    
+}
+
+.textoremedios{
+    padding-right: 10px;
+    padding-left: 10px;
+     text-align: justify;
+     color:#5F046C;
+    
+}
+
+
+.remedios{ width: 25%;
+   
+    border-color: red;
+    border: dotted;
+    font-size: 12px;
   
     
+
+
 }
 
-        .textoviolenciadigital{
-            
-            width: 50%;
-             text-align: center;
-           padding: 50px;
-            padding-left: 20px;
-            font-size: 20px;
-            padding-right: 20px;
-            width: 50%;
-            
-                } /*border: 3px solid red;*/
-
-            .imgviolencia img{
-    
-                width: 100%;
-                display:inline-flex;
-                
-            
-            }
-        
-        .contenedordelito{ background-color: #E8E8E8;
-            padding-bottom: 50px;
-            padding-top: 50px;
-            display: inline-flex;
-                       
-        }
-    
-
-        
-        h1{font-size: 180px;
-            margin: 0;
-            color: #3F3FBC;
-        
-        }
-
-.ley{display: inherit;
-    
-    padding-top: 30px;
-    }/*border: 3px solid red;*/
-
-.olimpia{ display: inherit;
-    } /*border:  3px solid red;*/
-
-        h2{
-            text-align: center;
-            color: #3F3FBC;
-            font-size: 40px;
-        }
-
-        .sexting{
-            margin: 100px;
-            margin-left: 300px;
-            margin-right: 300px;
-            
-            text-align: center;
-    
-    
-            }
-
-.contenedordelito{ 
-    width: 100%;
-    font-size: 20px;
-    }
-.LaPenaPuede{
+.celia{ width: 25%;
    
-    display: inline-block;
+    border-color: red;
+    border: dotted;
+    font-size: 12px;
+    
+    
+  
+
+
+
+}
+
+.lola{ width: 25%;
+    border-color: red;
+    border: dotted;
+    font-size: 12px;
+ 
+
+
+}
+
+.lilia{ width: 25%;
+    border-color: red;
+    border: dotted;
+    font-size: 12px;
+padding:  0px;
+    padding-top: 0px;
+    
+
+
+}
+
+h3{ color: #E8115D;
+    font-size: 15px;
+}
+
+h4{ color: #5F046C;
+    font-size: 16px;
+}
+
+h2{
+    color: #510F79;
+
+}
+
+h1{ text-shadow: 3px 3px 1px #FF6DCD;
     text-align: center;
-    padding: 30px;
-}
-.SeCometeDelito{
-    display: inline-block;
-    text-align: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    
     
 }
 
-h3{
-    font-size: 40px;
-    color: #3f3fbc;
-}
-
-.SiEres{
-    background-color: #3f3fbc;
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    padding-right: 200px;
-    padding-left: 200px;
-    padding: 70px;
-}
-.Pena{
-    background-color: #fff;
-    color: #3f3fbc;
-    font-size: 30px;
-    padding-right: 200px;
-    padding-left: 200px;
-    text-align: center;
-    padding: 100px;
-}
-
-h5{
-    text-align: center;
-            color: white;
-            font-size: 45px;
-    margin-left: 0;
-    margin:0;
+.pintoras{
     
-}
-        
-        p{
-            color:#3F3FBC;
-            font-size:29px;
-        }
-        
-        p3{color:white;
-font-size: 25px;}
-        
-        footer{
-            background-color: #6767BA;
-            padding: 100px;
-            text-align: center;
-        }
-        
-        p4{color:white;
-font-size: 23px;}
-
-
-.iconosredes img{
-    max-width: 150px;
+    text-align: right;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 
-
-.footer{
-    padding: 50px;
-
+.referencias{
+   padding-left: 100px;
+    padding-right: 100px; 
 }
 
-.iconosredes img {border-radius: 50%;}
-.iconosredes img:hover {
-    box-shadow: 0 0 20px 7px rgba(36, 43, 46, 0.79);
-    cursor:pointer;
+/* Extra small devices (portrait phones, less than 976px)*/
+@media (max-width: 976px) {.
+    
+    .contenedorPintoras{
+        width: 90;}
+    .ContenedorGral{
+        width: 90%;
+        display:block;
+    }
+    
+    .contenedorPintoras img{
+    width: 150px;
+    height: 150px;
+    
+    
+    
+    
+    
 }
-
-/* Extra small devices (portrait phones, less than 876px)*/
-@media (max-width: 876px) {
-     .IntroduccionTitulo{
-        padding-left: 80px;
-          max-width: 80%;
-         display: block;
-        
-    }
-    
-    .olimpia{ font-size-adjust: auto;
-        
-    }
-    .ImgIntroduccion{
-        width: 100%;
-       
-       
-    }
-    .ImgIntroduccion img{
-        margin-top: 20px;
-    }
-    
-    .introVigor{ font-size: 20px;
-        padding-left: 50px;
-     padding-right: 50px;
-        
-        
-    }
-    .introduccion{
-        width: inherit;
-        
-        display: block;
-        
-    }
-    
-    .IntroduccionTitulo{
-        width: 100%;
-    }
-    
-    h1{
-        font-size: 140px;
-    }
-    .contenedorviolenciadigital{
-            background-color: #3F3FBC;
-            color: white;
- display: inline-block;
-        
-        }
-    
-    .sexting{ margin-left: 90px;
-            margin-right: 90px;
-        
-    }
-    
-    nav {
-        position: static;
-        margin-left: 0px;
-    }
-
-    nav a {
-        display: block;
-
-    }
-    
-    .textoviolenciadigital{
-        width:90%;
-    
-    }
-    
-    .imgviolencia img{
-       position: 
-    }
-    
-    .contenedordelito{
-        display: block;
-    }
-    }
-/* */
-/* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 576px) {
-   
-    nav {
-        position: static;
-       text-align-last: center;
-           
-          
-    }
-
-    nav a {
-        display: block;
-        
-
-    }
-   
-    
-    .IntroduccionTitulo{
-         padding-left: 80px;
-        width: 80%
-        
-        
-    }
-    
-    
-    }
-    
-
-   
